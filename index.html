@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter McCrae-Hokenson</title>
+    <!--Normalizing CSS for broswer compatability-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+              rel="stylesheet"
+              type="text/css"/>
+    <!--Importing Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Linking Favicon-->
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--Thanks, Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Rock+Salt&display=swap" rel="stylesheet">
+    <!--Importing JQuery for the scrollTo library-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  </head>
+
+
+
+  <body>
+    <header id="header">
+      <!--The navbar that sticks to the top of the page at all times.-->
+      <nav class ="sticky">
+        <ul class = "styleless">
+          <li><a href="#header" class="blue-hover scrollLink">Home</a></li>
+          <li><a href="#about-me" class="orange-hover scrollLink">About</a></li>
+          <li><a href="#links" class="purple-hover scrollLink">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Hello, I"m Peter. <br class="only-mobile"><span class="light-text">I"m a web developer.</span></h1>
+    </header>
+
+
+    <hr>
+
+
+<main>
+  <div class="wrapper">
+    <div class="group">
+      <div class= "item self-portrait">
+        <img src ="images/self-portrait.png" alt = "self-portrait" width = "250px;">
+      </div>
+    </div>
+  </div>
+
+  <div class= "wrapper main">
+    <div class="group">
+      <section id ="intro" class="item">
+        <h2>Who?</h2>
+
+          <p>My name is Peter McCrae-Hokenson and I am a software developer living in Minneapolis, MN and working all over. As an art major out in the world, I’m compelled by:</p>
+          <ul class = "left-align">
+            <li>Code that is as beautiful as it is air-tight</li>
+            <li>Websites that tell an engaging story</li>
+            <li>Collaborating with developers who are excited about taking risks and having fun with the design process</li>
+          </ul>
+      </section>
+
+
+      <section id="about-me" class="item">
+        <h3>a bit more...</h3>
+        <p>Throughout my undergraduate wanderings I oscillated between three fields: Economics, Computer Science, and Studio Art. While my academic focal point was a moving target, my motivations never wavered. I was (and still am) searching for the right vehicle to create experiences that connect people with the opportunities and resources they seek.</p>
+        <p>During my senior year, I studied in Egypt, Tanzania, India, China, and Argentina. The impact these experiences had on me could not be overstated. After graduating, I was selected as one of three Fifth Year Emerging Artists for my work as a photographer and filmmaker. What came next was a year of enthusiastic art-making sponsored by St. Olaf College. <a href = "https://petermccraehokenson.com" target="_blank">Here is some of my work!</a></p>
+        <p>Now that I turn my gaze away from academia, I am excited about the intersection of art and technology. Anywhere where these two fields cross paths energizes me. If you are on the lookout for a developer who is equal parts meticulous and creative, I’d love to chat. You can find me at any of the links below.</p>
+        <h4>Here is a peak into my tech toolbelt</h4>
+          <p>HTML + CSS + JavaScript</p>
+          <p>Adobe Lightroom + Photoshop</p>
+          <p>Adobe Premiere + After Effects</p>
+          <p>Adobe Illustrator</p>
+          <p>Python</p>
+      </section>
+
+
+      <section id="links" class="item">
+        <h2>Where?</h2>
+        <div class = "group-row contacts">
+          <a href="https://www.linkedin.com/in/peter-mccrae-hokenson/" target="_blank" class="fa fa-linkedin item"></a>
+          <a href="https://github.com/PeterMcHoke" target="_blank" class="fa fa-github orange-hover item"></a>
+          <a href="mailto:petermccraehokenson@gmail.com" target="_blank" class="fa fa-envelope purple-hover item"></a>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+<hr>
+
+
+  <div class="wrapper project-wrapper">
+    <h2> Some stuff I've been working on </h2>
+    <div class="group-row projects">
+      <div class="item">
+        <h3>Project Title</h3>
+        <img src = "http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" alt = "placeholder" width = "200px" class = "rounded">
+        <p>Using HTML,CSS, and JavaScript lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi neque facere dolorum obcaecati nisi eos natus laborum voluptates atque molestias accusantium, dolores at, impedit eveniet asperiores quis incidunt autem?</p>
+        <a href="https://github.com/PeterMcHoke" target="_blank" class="fa fa-github orange-hover item"></a>
+        <a href = "https://petermccraehokenson.com" class = "fa fa fa-desktop"></a>
+      </div>
+      <div class="item">
+        <h3>Project Title</h3>
+        <img src = "http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" alt = "placeholder" width = "200px" class = "rounded">
+        <p>Using React, lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi neque facere dolorum obcaecati nisi eos natus laborum voluptates atque molestias accusantium, dolores at, impedit eveniet asperiores quis incidunt autem?</p>
+        <a href="https://github.com/PeterMcHoke" target="_blank" class="fa fa-github orange-hover item"></a>
+        <a href = "https://petermccraehokenson.com" class = "fa fa fa-desktop"></a>
+      </div>
+      <div class="item">
+        <h3>Project Title</h3>
+        <img src = "http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" alt = "placeholder" width = "200px" class = "rounded">
+        <p>Using React, lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil animi neque facere dolorum obcaecati nisi eos natus laborum voluptates atque molestias accusantium, dolores at, impedit eveniet asperiores quis incidunt autem?</p>
+        <a href="https://github.com/PeterMcHoke" target="_blank" class="fa fa-github orange-hover item"></a>
+        <a href = "https://petermccraehokenson.com" class = "fa fa-desktop"></a>
+      </div>
+    </div>
+  </div>
+  </main>
+
+
+  <hr>
+  <div class = "wrapper contact-wrapper">
+      <article id="contact">
+           <h2>Contact</h2>
+  			<div class='group group-contact'>
+
+  				<div class='item'>
+  					<form action="#" method="POST">
+            <label for="user-name">Name:</label>
+            <input id="user-name" type="text" name="name">
+
+            <label for="user-email">Email:</label>
+            <input id="user-email" type="text" name="email">
+
+            <label for="user-message">Message:</label>
+            <textarea id="user-message" name="message"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+  				</div>
+  				<div class='item'>
+  					<p>Phone #: 734.585.6779</p>
+            <p>Email: petermccraehokenson@gmail.com<p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90325.47666039692!2d-93.33151828200064!3d44.970675595414185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2sMinneapolis%2C%20MN!5e0!3m2!1sen!2sus!4v1590701247899!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  				</div>
+  			</div>
+        </article>
+  </div>
+  <hr>
+      <!--A quirky section to lighten the mood-->
+      <footer class="group-row">
+        <article id ="tidbits" class = "item">
+          <h4>A few non-professional tidbits</h4>
+            <ul class = "styleless">
+              <li>I am on a lifelong pursuit of the world"s finest Banana Bread.</li>
+              <li>I adore Rocket League, it reminds me of being young and in love with soccer.</li>
+              <li>I want to make a documentary about cooking practices around the world someday. <br><sub>(this might be more related to the first point than I would like to admit)</sub></li>
+            </ul>
+      </article>
+      </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+  </html>
