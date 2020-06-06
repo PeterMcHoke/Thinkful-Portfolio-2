@@ -1,9 +1,11 @@
 
 /*Global background texture*/
-html {
-  scroll-behavior: smooth;
+* {
   box-sizing: border-box;
 
+}
+html {
+  scroll-behavior: smooth;
 }
 
 
@@ -13,6 +15,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  width: 100%;
   }
 
 @media all and (min-width: 700px) {
@@ -26,6 +29,7 @@ body {
 main {
   display: flex;
   flex-flow: column nowrap;
+
 }
 
 .group {
@@ -138,9 +142,11 @@ header > nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
   /*Making the navbar sticky to the top of the page*/
   background: #fffbfa;
+  margin-top: 30px;
+  width: 100%;
+  margin: 0 auto; */
 }
 
 @media all and (min-width: 700px) {
@@ -153,6 +159,8 @@ header nav ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
+  padding-inline-start: 0px;
 }
 
 header nav a {
@@ -302,6 +310,10 @@ div.place-card.place-card-medium {
 
 footer {
   padding: 50px 0;
+}
+
+footer ul {
+  padding-inline-start: 0px;
 }
 
 article#tidbits h4 {

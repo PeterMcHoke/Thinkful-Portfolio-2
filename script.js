@@ -11,3 +11,19 @@ $('.scrollLink').click(e => {
   // you can see other examples/options of the lib at:
   // http://demos.flesler.com/jquery/scrollTo/
 });
+
+$('#map-frame').on('load', () =.)
+const iframe = $('#map-frame').contents();
+
+$('.place-card',iframe).css("display","none");
+
+e => {
+  //do something
+}
+
+
+let arr = [1,2,3];
+
+console.log(
+  arr.map(x => 10*x);
+)
