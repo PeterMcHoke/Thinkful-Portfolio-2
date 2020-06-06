@@ -239,16 +239,17 @@ header > h1 {
 }
 
 /*Font Awesome Hover Color Changes*/
-.dark-wrapper a:link {color: #fff;}
-.dark-wrapper a:visited { color: #fff;}
-.dark-wrapper a:hover { color: #009dff; transition: 0.5s; transition-timing-function: ease-in-out;}
-.dark-wrapper .blue-hover:hover{
+.contacts a::before {color: #fff;}
+.contacts a:link {color: #fff;}
+.contacts a:visited { color: #fff;}
+.contacts a:hover { color: #009dff; transition: 0.5s; transition-timing-function: ease-in-out;}
+.contacts .blue-hover:hover{
   color: #4dca34; transition: 0.5s; transition-timing-function: ease-in-out;
 }
-.dark-wrapper .orange-hover:hover{
+.contacts .orange-hover:hover{
   color: #ff7700; transition: 0.5s; transition-timing-function: ease-in-out;
 }
-.dark-wrapper .purple-hover:hover{
+.contacts .purple-hover:hover{
   color: #8600ff; transition: 0.5s; transition-timing-function: ease-in-out;
 }
 
